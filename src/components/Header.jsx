@@ -12,7 +12,7 @@ const Header = () => {
     <div className='header'>
       <div className="header-left">
         <IconButton><MenuIcon /></IconButton>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png" alt="" />
+        <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_2x_r5.png" alt="" />
       </div>
 
       <div className="header-middle">

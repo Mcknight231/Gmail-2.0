@@ -1,6 +1,6 @@
 import '../styles/SideBar.css';
 import { Button } from '@mui/material';
-import AddIcon from '@mui/icons-material/Add';
+import CreateIcon from '@mui/icons-material/Create';
 import InboxIcon from '@mui/icons-material/Inbox';
 import SidebarOption from '../components/SidebarOption';
 import StarIcon from '@mui/icons-material/Star';
@@ -17,7 +17,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 const SideBar = () => {
   return (
     <div className='sideBar'>
-      <Button className='sidebar-compose' startIcon={<AddIcon fontSize='large' />} selected={true}>Compose</Button>
+      <Button className='sidebar-compose' startIcon={<CreateIcon fontSize='large' />} selected={true}>Compose</Button>
       <SidebarOption Icon={InboxIcon} title='Inbox' number={54} selected={true}/>
       <SidebarOption Icon={StarIcon} title='Starred' number={54}/>
       <SidebarOption Icon={LabelImportantIcon} title='Important' number={54}/>

@@ -19,9 +19,9 @@
 .sidebarOption-active:hover,
 .sidebarOption-active:hover > p,
 .sidebarOption-active:hover > h3 {
-    background-color: #fcecec;
-    color: #c04b37;
-    font-weight: 800 !important;
+    background-color: #d3e3fd;
+    color: #001d35;
+    font-weight: 500 !important;
 }
 
 .sidebarOption > h3 {
