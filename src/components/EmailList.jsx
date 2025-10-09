@@ -42,17 +42,17 @@ const EmailList = () => {
           <IconButton>
             <SettingsIcon />
           </IconButton>
-        </div>
-        <div className="emailList-section">
+        </div>      
+      </div>
+       <div className="emailList-section">
           <Section Icon={InboxIcon} title='Primary' color='red' selected/>
           <Section Icon={PeopleIcon} title='Socials' color='blue'/>
-          <Section Icon={LocalOfferIcon} title='Primary' color='green'/>
+          <Section Icon={LocalOfferIcon} title='Promotions' color='green'/>
         </div>
         <div className="emailList-list">
           <EmailRow title='Test' subject='Test subject' description='This is a test' time='4pm'/>
-          <EmailRow title='Test' subject='Test subject' description='This is a test' time='4pm'/>
+          <EmailRow title='Test' subject='Test subject' description='This is a test too' time='4pm'/>
         </div>
-      </div>
     </div>
   )
 }
