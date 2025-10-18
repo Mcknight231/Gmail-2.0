@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import EmailList from './components/EmailList';
 import Mail from './components/Mail';
+import SendMail from './components/SendMail';
 
 function App() {
 
@@ -25,6 +26,8 @@ function App() {
             <Route path='/' element={<EmailList />} />
           </Routes>
         </div>
+
+        <SendMail />
       </div>
     </Router>
   )
